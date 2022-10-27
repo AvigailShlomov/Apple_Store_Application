@@ -1,0 +1,145 @@
+
+.homeDiv{
+    margin: auto;
+    font-weight: bolder;
+    justify-content: center;
+    text-align: center;
+    min-height: calc(100vh - 50px - 111px);
+}
+
+/* ***************************************** */
+
+.homeDiv .macbookDiv{
+    background-color: black;
+    padding-top: 40px;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.homeDiv .macbookDiv h1{
+    font-size: 60px;
+    color: aliceblue;
+}
+
+.homeDiv .macbookDiv h3{
+    font-size: x-large;
+    color: aliceblue;
+}
+
+.homeDiv .macbookDiv img{
+    display: block;
+    width: 100%;
+}
+
+/* ***************************************** */
+
+.homeDiv .iphoneDiv{
+    padding-top: 40px;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.homeDiv .iphoneDiv h1{
+    font-size: 60px;
+    font-weight: 500;
+    letter-spacing: -4px;
+}
+
+.homeDiv .iphoneDiv h3{
+    font-size: x-large;
+}
+
+.homeDiv .iphoneDiv img{
+    display: block;
+    width: 100%;
+}
+
+/* ***************************************** */
+
+.homeDiv .ipadDiv{
+    background-color: black;
+    padding-top: 40px;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.homeDiv .ipadDiv h1{
+    font-size: 60px;
+    font-weight: 500;
+    letter-spacing: -4px;
+    color: aliceblue;
+}
+
+.homeDiv .ipadDiv h3{
+    font-size: x-large;
+    color: aliceblue;
+}
+
+.homeDiv .ipadDiv img{
+    display: block;
+    width: 100%;
+}
+
+/* ***************************************** */
+
+.homeDiv .watchDiv{
+    padding-top: 40px;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.homeDiv .watchDiv h1{
+    font-size: 60px;
+    font-weight: 500;
+    letter-spacing: -4px;
+}
+
+.homeDiv .watchDiv h3{
+    font-size: x-large;
+}
+
+.homeDiv .watchDiv img{
+    display: block;
+    width: 100%;
+}
+
+/* ***************************************** */
+
+.homeDiv .waDiv .watchDiv h1{
+    font-size: 60px;
+    font-weight: 500;
+    letter-spacing: -4px;
+}
+
+.homeDiv .waDiv .watchDiv h3{
+    font-size: x-large;
+}
+
+.homeDiv .watchDiv{
+} 
+
+/* ***************************************** */
+
+.homeDiv .airpodsDiv{
+    background-color: black;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.homeDiv .airpodsDiv h1{
+    font-size: 60px;
+    color: aliceblue;
+}
+
+.homeDiv .airpodsDiv h3{
+    font-size: x-large;
+    color: aliceblue;
+}
+
+.homeDiv .airpodsDiv img{
+    display: block;
+    width: 100%;
+}
+

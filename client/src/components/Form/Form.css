@@ -1,0 +1,280 @@
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,500,0,0");
+
+.formsDiv{
+    border-radius: 5px;
+    /* width: 30%; */
+    padding: 50px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 70px;
+}
+
+.formsDiv hr{
+    /* margin-top: 10px; */
+}
+
+.formsDiv .vl{
+    border-left:1px solid #888 ;
+    /* margin-top: 30px; */
+}
+
+.formsDiv .registresionFormDiv, .formsDiv .singinDiv {
+    text-align: center;
+}
+
+.formsDiv .registresionFormDiv h2, .formsDiv .singinDiv h2{
+    margin-bottom: 40px;
+    font-weight: 500;
+}
+
+.formsDiv .formDiv{
+    /* .formsDiv .registresionFormDiv .formDiv,.formsDiv .singinDiv{ */
+    text-align:left ;
+    /* margin-left: 10px; */
+    background-color:white;
+    
+    /* border:2px solid  #0070c9; */
+    border-radius: 15px;
+    z-index: 0;
+    position: relative;
+    /* width: 600px; */
+width: 500px;
+    /* border:2px solid #0070c9; */
+    padding: 20px;
+
+}
+
+.formsDiv .registresionFormDiv .formDiv .nameDiv{
+    display: flex;
+    justify-content: space-between;
+}
+
+.formsDiv .registresionFormDiv .formDiv .nameDiv .inputFormDiv,.formsDiv .registresionFormDiv .formDiv .inputFormDiv{
+    /*  border: 2px solid red;  */
+    margin: 20px ;
+    position:relative;
+}
+
+.formsDiv .registresionFormDiv .formDiv .nameDiv .inputFormDiv input:focus,.formsDiv .registresionFormDiv .formDiv .inputFormDiv input:focus{
+    appearance: none;
+    border-color: #888;
+    outline: 0;
+    box-shadow: 0 0 0 3px rgb(131 192 253 /50%);
+}
+
+.formsDiv .registresionFormDiv .formDiv .nameDiv .inputFormDiv label,.formsDiv .registresionFormDiv .formDiv .inputFormDiv label{
+    position: absolute;
+    /* font-size: x-large; */
+    z-index: 100;
+    top: 22px;
+    left: 17px;
+    color: #888;
+    padding: 0;
+    transition-timing-function: ease-in;
+    transition-duration: .125s;
+    pointer-events: none;
+
+    font-size: 20px;
+    line-height: 1.23543;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    transition: all 400ms ease-in-out;
+}
+
+.formsDiv .registresionFormDiv .formDiv .nameDiv .inputFormDiv input,.formsDiv .registresionFormDiv .formDiv .inputFormDiv input{
+    position: relative;
+    width: 100%;
+    height: 3.8em;
+    z-index: 200;
+    /* line-height: 1.23543;
+    font-weight: 400;
+    letter-spacing: -.022em; */
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 8px;
+    padding-top: 18px;
+    padding-left: 16px;
+    padding-right: 16px;
+    color: #333;
+    text-align: left;
+    /* border: 1px solid red; */
+    border-radius: 4px;
+    background: hsla(0,0%,100%, 0);
+    background-clip: padding-box;
+
+    font-size: large;
+}
+
+.formsDiv .registresionFormDiv .formDiv .inputFormDiv input:valid + label,.formsDiv .registresionFormDiv .formDiv .inputFormDiv input:focus + label{
+    /* transform: translateY(0px); */
+    top: 10px;
+    font-size: small;
+}
+    /*valid and invalid feilds*/
+
+.formsDiv .registresionFormDiv .formDiv .nameDiv .inputFormDiv .inValidBorder{
+    border: 1px red solid;
+}
+.formsDiv .registresionFormDiv .formDiv .nameDiv .inputFormDiv .ValidBorder{
+    border: 1px solid #888;
+}
+
+
+input[type='submit'],input[type='reset'] 
+{
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 10px;
+}
+
+.formsDiv .registresionFormDiv .formDiv .btnDiv, .formsDiv .singinDiv .formDiv .btnDiv {
+    /* display: inline-block;
+    width: 120px;
+    justify-content: center;
+    margin: auto 10px;
+    font-size: medium;
+    padding: 8px 0;
+    background-color: #0071e3;
+    color: #fff;
+    border-radius: 10px;
+    border-style:hidden; */
+
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+
+
+}
+.formsDiv .registresionFormDiv .formDiv .btnDiv button, .formsDiv .singinDiv .formDiv .btnDiv button{
+    display: block;
+    width: 120px;
+    margin: auto;
+    font-size: medium;
+    padding: 8px 0;
+    background-color: #0071e3;
+    color: #fff;
+    border-radius: 10px;
+    border-style:hidden;
+}
+
+.formsDiv .registresionFormDiv .formDiv .btnDiv{
+    /* display: inline-block; */
+
+}
+
+
+/* .pageProductDiv .imgbtnDiv .btnDiv{
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+} */
+
+
+/* ---------------------LOGIN-------------------------- */
+/* .loginDiv */
+.formsDiv .singinDiv .formDiv .loginDiv{
+    display: flex;
+    justify-content: space-between;
+}
+    
+.formsDiv .singinDiv  .formDiv .loginDiv .inputFormDiv, .formsDiv .singinDiv .formDiv .loginDiv .inputFormDiv{
+    /*  border: 2px solid red;  */
+        margin: 20px ;
+    position:relative;
+}
+
+.formsDiv .singinDiv .formDiv .loginDiv .inputFormDiv input:focus, .formsDiv .singinDiv  .formDiv .loginDiv .inputFormDiv input:focus{
+    appearance: none;
+    border-color: #888;
+    outline: 0;
+    box-shadow: 0 0 0 3px rgb(131 192 253 /50%);
+}
+
+.formsDiv .singinDiv .formDiv .loginDiv .inputFormDiv label,.formsDiv .singinDiv .formDiv .loginDiv .inputFormDiv label{
+    position: absolute;
+    /* font-size: x-large; */
+    z-index: 100;
+    top: 22px;
+    left: 17px;
+    color: #888;
+    padding: 0;
+    transition-timing-function: ease-in;
+    transition-duration: .125s;
+    pointer-events: none;
+
+    font-size: 20px;
+    line-height: 1.23543;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    font-family: SF Pro Text,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+
+    /* transform: translateY(0px);  */
+    transition: all 400ms ease-in-out;
+    /* transition-timing-function: ease-in;
+    transition-duration: .125s;  */
+}
+
+.formsDiv .singinDiv  .formDiv .loginDiv .inputFormDiv input, .formsDiv .singinDiv .formDiv .loginDiv .inputFormDiv input{
+    position: relative;
+    width: 100%;
+    height: 3.8em;
+    z-index: 200;
+    /* line-height: 1.23543;
+    font-weight: 400;
+    letter-spacing: -.022em; */
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 8px;
+    padding-top: 18px;
+    padding-left: 16px;
+    padding-right: 16px;
+    color: #333;
+    text-align: left;
+    border: 2px solid #888;
+    border-radius: 4px;
+    background: hsla(0,0%,100%, 0);
+    background-clip: padding-box;
+
+    font-size: large;
+}
+
+
+.formsDiv .singinDiv .formDiv .inputFormDiv input:valid + label,.formsDiv .singinDiv .formDiv .inputFormDiv input:focus + label{
+    /* transform: translateY(0px); */
+    top: 10px;
+    font-size: small;
+}
+
+
+@media (max-width:1250px) {
+    .formsDiv{
+        /* border-radius: 5px;
+        padding: 50px; */
+        /* width: 1000px; */
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        gap: 70px;
+        /* min-width: 700px; */
+    }
+    
+    .formsDiv .vl{
+        /* border-left: 1px solid #888 ; */
+        border-top: 1px solid #888 ;
+        /* margin-top: 30px; */
+        /* max-width: 700px; */
+        /* margin: auto; */
+    }
+    
+    .formsDiv .registresionFormDiv, .formsDiv .singinDiv {
+        margin: auto;
+    }
+    
+}
+

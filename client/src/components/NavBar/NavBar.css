@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0");
+
+ /* border: 2px solid red; */
+
+ .navBarDiv{
+    position: relative;
+    background-color: rgb(60, 60, 60);
+    height: 50px;
+}
+
+.navBarDiv .navBar{
+    padding: 10px 20px 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.navBarDiv .navBar .logoDiv img{
+    width: 20px;
+}
+
+.navBarDiv .navBar .logoDiv{
+    margin-right: 40px;
+}
+
+.navBarDiv .navBar .iconsDiv{
+    display: flex;
+    gap: 20px;
+}
+
+.navBarDiv .navBar .iconsDiv .accountIconDiv{
+    line-height: 0;
+    padding-top: 2px;
+}
+.navBarDiv .navBar .iconsDiv .cartIconDiv{
+    line-height: 0;
+}
+
+.navBarDiv .material-symbols-outlined{
+    color: rgb(200, 200, 200);
+}
+
+.navBarDiv .navBar .linksDiv .navLinkDiv{
+    margin-left: 25px;
+    margin-right: 25px;
+    color: rgb(200, 200, 200);
+    /* text-align: justify; */
+    /* font-weight: 900; */
+    /* font-size: xx-large; */
+    /* color: white; */
+}
+
+.navBarDiv .hamburgerMenuDiv{
+    background-color: rgb(60, 60, 60, 0.95);
+    width: 300px;
+    position: absolute;
+    border-bottom-right-radius: 10px;
+    /* border-top-right-radius: 5px; */
+    border-bottom-left-radius: 10px;
+    /* margin: auto; */
+    display: none;
+    z-index: 900;
+ }
+
+ .navBarDiv .shown{
+    display: block;
+ }
+
+ .navBarDiv .hamburgerMenuDiv .linksHumburgerDiv{
+    color: rgb(200, 200, 200);
+ }
+
+ .navBarDiv .hamburgerMenuDiv .linksHumburgerDiv .menuLinkDiv{
+    padding: 15px 30px;
+    color: rgb(200, 200, 200);
+    display: flex;
+    /* gap: 20px; */
+    /* border-top: 1px solid white; */
+    justify-content: space-between;
+    align-items: center;
+ }
+
+ /* .navBarDiv .hamburgerMenuDiv .linksHumburgerDiv .menuLinkDiv .title{
+    font-size: medium;
+    color: rgb(200, 200, 200);
+    display: inline-block;
+ } */
+ 
+ .navBarDiv .hamburgerMenuDiv .linksHumburgerDiv .menuLinkDiv span{
+    font-size: medium;
+    color: rgb(200, 200, 200);
+    text-align: right;
+ }
+
+ .navBarDiv .hamburgerMenuDiv .linksHumburgerDiv hr{
+    margin: 0 15px;
+    line-height: 0;
+    border-width: 0.5px;
+ }
+
+ /* @media (min-width: 640px) and (max-width: 930px) {
+    .galleryDiv .galleryGrid{
+        margin: 50px auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 40px;        
+    }
+} */
+
+/* --------------- Small Screen --------------- */
+
+@media (max-width: 1000px){
+
+    .navBarDiv .navBar .linksDiv{
+        display: none;
+    }
+
+    .navBarDiv .shown{
+        display: block;
+     }
+    
+    .navBarDiv .navBar .menuDiv{
+        line-height: 0;
+        /* margin: auto; */
+        margin-left: 20px;
+        /* display: none; */
+    }
+
+    .navBarDiv .navBar .iconsDiv{
+        line-height: 0;
+        margin-left: 50px;
+    }
+
+    .navBarDiv .navBar{
+        display: flex;
+        align-items: center;
+        justify-content: left;
+    }
+    
+    .navBarDiv .navBar .iconsDiv{
+        gap: 50px;
+    }
+    
+}
+
+/* --------------- Big Screen --------------- */
+
+@media (min-width: 1001px){
+
+    .navBarDiv .navBar{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .navBarDiv .navBar .linksDiv{
+        display: flex;
+        align-items: center;
+    }
+    
+    .navBarDiv .navBar .menuDiv{
+        display: none;
+    }
+
+    .navBarDiv .shown{
+        display: none;
+     }
+    
+}
+
+
+

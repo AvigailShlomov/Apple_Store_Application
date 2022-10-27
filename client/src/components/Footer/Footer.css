@@ -1,0 +1,21 @@
+
+.footerDiv{
+    width: 90%;
+    margin: 0 5%;
+    padding: 20px 0;
+    height: 111px;
+}
+
+.footerDiv #Copyright{
+    color: rgb(98, 98, 98);
+    font-weight:normal;
+    margin-top: 10px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.footerDiv #apple{
+    text-align: center;
+    margin-top: 8px;
+    color: rgb(49, 49, 49);
+}

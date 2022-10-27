@@ -1,0 +1,85 @@
+
+.pageUserDiv{
+    min-height: calc(100vh - 50px - 111px - 80px);
+    text-align: center;
+    margin: 50px;
+}
+
+.pageUserDiv .link:hover{
+    cursor: pointer;
+}
+
+.pageUserDiv .link{
+    color: #0071e3;
+    text-decoration: underline;
+    margin: 10px;
+}
+
+.pageUserDiv .hidden{
+    display: none;
+}
+
+.pageUserDiv .shown{
+    display: block;
+    width: 500px;
+    margin: auto;
+}
+
+@media (max-width: 600px) {
+
+    .pageUserDiv .shown{
+        width: 100%;
+    }
+    
+}
+
+.pageUserDiv .profileDiv, .pageUserDiv .shownHistoryDiv{
+    margin-top: 30px;
+    /* border: 1px solid #0071e3; */
+    background-color: white;
+    border-radius: 15px;
+    text-align: left;
+    padding: 20px;
+}
+
+.pageUserDiv .shownHistoryDiv .orderDiv{
+    margin: 10px;
+    border: 1px solid #0071e3;
+    background-color: white;
+    border-radius: 15px;
+    text-align: left;
+    padding: 20px;
+}
+
+.pageUserDiv .profileDiv h3{
+    margin: 10px 0 20px 10px;
+    font-weight: bold;
+}
+
+.pageUserDiv .profileDiv h4{
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.pageUserDiv .btnDiv{
+    margin-top: 30px;
+}
+
+.pageUserDiv .btnDiv button{
+    display: block;
+    width: 120px;
+    margin: auto;
+    font-size: medium;
+    padding: 8px 0;
+    background-color: #0071e3;
+    color: #fff;
+    border-radius: 10px;
+    border-style:hidden;
+}
+
+.pageUserDiv .hiddenHistoryDiv{
+    display: none;
+}
+
+
+

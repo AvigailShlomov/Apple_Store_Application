@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,200,0,0");
+
+.supportDiv{
+    /* height: 100vh; */
+    text-align: center;
+    justify-content: center;
+    padding: 50px;
+    min-height: calc(100vh - 50px - 111px);
+}
+
+.supportDiv .contactTypesDiv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 50px;
+}
+
+.supportDiv .contactTypesDiv .contactDiv{
+    background-color: white;
+    border-radius: 15px;
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+
+    cursor: pointer;
+}
+
+.supportDiv .contactTypesDiv .contactDiv .material-symbols-rounded{
+    font-size: 90px;
+    
+}
+
+.supportDiv .contactTypesDiv .contactDiv a{
+    text-decoration: none;
+}
+
+@media (min-width:750px) and (max-width: 1360px){
+    .supportDiv .contactTypesDiv{
+        margin: 50px auto;
+        width: 700px;
+    }    
+    
+}
+

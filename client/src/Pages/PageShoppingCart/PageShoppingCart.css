@@ -1,0 +1,55 @@
+
+.pageShoppingCartDiv{
+    min-height: calc(100vh - 50px - 111px);
+}
+
+.pageShoppingCartDiv h1{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.pageShoppingCartDiv .finalPriceDiv {
+    width: 700px;
+    padding: 20px 30px;
+    background-color: white ;
+    margin: 30px auto;
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.pageShoppingCartDiv .finalPriceDiv .btnDiv button{
+    display: inline-block;
+    width: 120px;
+    margin: auto;
+    font-size: medium;
+    padding: 8px 0;
+    background-color: #0071e3;
+    color: #fff;
+    border-radius: 10px;
+    border-style:hidden;
+}
+
+.pageShoppingCartDiv .finalPriceDiv h2{
+    display: inline-block;
+}
+
+.pageShoppingCartDiv .finalPriceDiv .btnDiv button:hover{
+    cursor: pointer;
+    background-color: #0071e3cb;
+}
+
+@media (min-width:500px) and (max-width: 800px){
+
+    .pageShoppingCartDiv .finalPriceDiv {
+        width: 400px;
+        flex-direction: column;
+        padding: 20px 40px;
+    }
+    
+    .pageShoppingCartDiv .finalPriceDiv h2{
+        margin-bottom: 20px;
+    }
+    
+}

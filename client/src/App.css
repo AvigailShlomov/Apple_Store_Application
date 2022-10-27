@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background-color: rgb(243, 243, 243); */
+
+    line-height: 1.47059;
+    font-weight: 400;
+    /* letter-spacing: 0.022em; */
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    color: #1d1d1f;
+    /* color: aliceblue; */
+    font-style: normal;
+    
+}
+
+.App{
+  background-color: rgb(243, 243, 243);
+  /* background-color: rgb(25, 25, 25); */
+  /* min-height: calc(100vh - 50px - 111px); */
+
+}

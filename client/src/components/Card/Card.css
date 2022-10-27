@@ -1,0 +1,48 @@
+
+.cardDiv{
+    width: 250px;
+    height: 320px;
+    /* background-color: rgb(243, 243, 243); */
+    background-color: white;
+    border-radius: 15px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    gap: 8px;
+    padding: 15px;
+}
+
+.cardDiv img{
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+    /* border: solid; */
+    margin: 10px;
+}
+
+.cardDiv .newDiv{
+    height: 13px;
+    color: rgb(179, 0, 0);
+}
+
+.cardDiv .onSale{
+    font-style: oblique;
+    text-decoration: line-through;
+}
+
+.cardDiv .saleDiv{
+    height: 28px;
+    padding-right: 3px;
+    padding-left: 3px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 100);
+    border-style: groove ;
+    border-color: rgb(255, 255, 100);
+}
+
+.cardDiv .noSaleDiv{
+    height: 28px;
+    padding: 3px;
+}
